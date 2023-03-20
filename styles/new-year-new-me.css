@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  list-style: none;
   font-family: "Work Sans", sans-serif;
 }
 header {
@@ -8,7 +10,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .banner-value {
   width: 525px;
@@ -22,6 +24,10 @@ header {
   font-weight: 700;
   margin-bottom: 24px;
 }
+.banner-disc {
+  line-height: 26px;
+  margin-bottom: 32px;
+}
 .banner-btn {
   color: #005fac;
   font-size: 20px;
@@ -29,5 +35,34 @@ header {
   padding: 21px 25px;
   border: 0;
   border-radius: 5px;
-  margin-top: 32px;
+}
+/* my failure reasone */
+.my-failures-reasons {
+  /* clear: both; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+  margin-top: 130px;
+}
+.failure-reason {
+  width: 416px;
+}
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.setion-disc {
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.section-list {
+  color: #444343;
+  line-height: 26px;
+}
+.section-list i {
+  color: #16d887;
 }
