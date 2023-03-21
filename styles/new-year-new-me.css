@@ -13,7 +13,25 @@ header {
   overflow: hidden;
 }
 section {
-  margin-top: 130px;
+  margin: 130px 230px 0;
+}
+.primary-btn {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 25px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.primary-title {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.primary-disc {
+  line-height: 26px;
+  margin-bottom: 32px;
 }
 .banner-value {
   width: 525px;
@@ -21,23 +39,6 @@ section {
   padding: 216px 230px 166px;
   text-align: right;
   float: right;
-}
-.banner-title {
-  font-size: 65px;
-  font-weight: 700;
-  margin-bottom: 24px;
-}
-.banner-disc {
-  line-height: 26px;
-  margin-bottom: 32px;
-}
-.banner-btn {
-  color: #005fac;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 21px 25px;
-  border: 0;
-  border-radius: 5px;
 }
 /* my failure reasone */
 .my-failures-reasons {
@@ -70,17 +71,15 @@ section {
 
 /* my plans */
 .my-plans {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+  text-align: center;
 }
 .four-plan {
   display: flex;
-  gap: 85px;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  margin: 0 230px;
+  gap: 85px;
+  margin-top: 50px;
 }
 .single-plan h4 {
   font-size: 30px;
@@ -93,4 +92,56 @@ section {
   font-size: 25px;
   font-weight: 500;
   line-height: 29px;
+}
+/* call now */
+.call-now {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
+  padding: 59px 64px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.call-now h3 {
+  color: #ffffff;
+  width: 459px;
+}
+/* footer */
+footer {
+  color: #ffffff;
+  background-color: #151414;
+  margin-top: 130px;
+  padding: 130px 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 490px;
+}
+.footer-left span {
+  display: block;
+  margin-top: 20px;
+}
+.footer-left a {
+  margin: 32px 17px 0 0;
+}
+.subsribe {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+.footer-right input {
+  display: block;
+}
+.footer-right input[type="email"] {
+  width: 325px;
+  padding: 21px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.footer-right input[type="submit"] {
+  color: #ffffff;
+  background-color: #005fac;
 }
