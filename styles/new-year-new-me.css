@@ -12,6 +12,9 @@ header {
   background-position: center;
   overflow: hidden;
 }
+section {
+  margin-top: 130px;
+}
 .banner-value {
   width: 525px;
   color: #ffffff;
@@ -43,13 +46,11 @@ header {
   justify-content: center;
   align-items: center;
   gap: 87px;
-  margin-top: 130px;
 }
 .failure-reason {
   width: 416px;
 }
 .section-title {
-  color: #151414;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 24px;
@@ -65,4 +66,31 @@ header {
 }
 .section-list i {
   color: #16d887;
+}
+
+/* my plans */
+.my-plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.four-plan {
+  display: flex;
+  gap: 85px;
+  text-align: center;
+  margin: 0 230px;
+}
+.single-plan h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 24px 0 16px;
+}
+.single-plan p {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
 }
